@@ -6,7 +6,9 @@ import "./KandyKorner.css"
 
 export const KandyKorner = () => (
     <>
-        <NavBar />
-        <ApplicationViews />
+        <Route>
+            <NavBar />
+            <ApplicationViews />
+        </Route>
     </>
-)
+);
